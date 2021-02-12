@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="GemBox.Pdf">
+      <HintPath>C:\Program Files (x86)\GemBox Software\GemBox.Pdf 1.5\Bin\net35\GemBox.Pdf.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
